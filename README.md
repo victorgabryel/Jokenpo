@@ -7,7 +7,7 @@ Quando eu estava estudando python através do Curso em Vídeo, havia um desafio 
 
 Como o jogo funciona:
 
-O computador irá escolher um número aleatório entre 0 e 2, cada um desses números representa uma jogada
+O computador irá escolher um número aleatório entre 0 e 2, cada um desses números representa uma jogada  
 0 = pedra  
 1 = papel  
 2 = tesoura  
