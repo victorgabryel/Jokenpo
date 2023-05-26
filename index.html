@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Escolha sua jogada</h2>
+        </div>
+        <div class="conteudo_principal">
+            <div class="imgs">
+                <label for="pedra"><img src="pedra.png" alt="pedra" class="img_escolha"></label>
+                <label for="papel"><img src="papel.png" alt="papel" class="img_escolha"></label>
+                <label for="tesoura"><img src="tesoura.png" alt="tesoura" class="img_escolha"></label>
+            </div>
+            <div class="selec">
+                <input type="radio" name="selec" id="pedra" checked>
+                <input type="radio" name="selec" id="papel">
+                <input type="radio" name="selec" id="tesoura">
+            </div>
+
+            <input type="button" value="Jogar" class="botao" onclick="jogar()">
+        </div>
+    </main>
+
+
+    <main class="main_resultado">
+        <div class="jogadas">
+            <div class="escolhas">
+                <img src="pedra.png" alt="escolha" id="jog1">
+                <img src="pedra.png" alt="escolha" id="jog2">
+            </div>
+            <div class="jogadores">
+                <p><strong>Jogador</strong></p>
+                <p><strong>Computador</strong></p>
+            </div>
+        </div>
+        <p class="res">~resultado~</p>
+        <p class="sit">~situação~</p>
+        <input type="button" value="Jogar novamente" class="botao botaovolta" onclick="voltar()">
+    </main>
+
+    <footer>
+        <strong>Site criado e desenvolvido por Victor Gabryel</strong>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
