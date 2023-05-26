@@ -97,6 +97,13 @@ footer {
     width: 100%;
     padding: 2px;
 }
+a {
+    text-decoration: none;
+    color: #4b7bff;
+}
+a:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 600px) {
     main {
