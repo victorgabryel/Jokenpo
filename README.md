@@ -8,17 +8,17 @@ Quando eu estava estudando python através do Curso em Vídeo, havia um desafio 
 Como o jogo funciona:
 
 O computador irá escolher um número aleatório entre 0 e 2, cada um desses números representa uma jogada
-0 = pedra
-1 = papel
-2 = tesoura
+0 = pedra  
+1 = papel  
+2 = tesoura  
 
 E o jogador (você) vai ter essas três opções, pedra, papel e tesoura para escolher
 
 Regras:
 
-PEDRA com PEDRA = EMPATE
-PEDRA com PAPEL = DERROTA PRA PEDRA
-PEDRA com TESOURA = VITÓRIA PRA PEDRA
+PEDRA com PEDRA = EMPATE  
+PEDRA com PAPEL = DERROTA PRA PEDRA  
+PEDRA com TESOURA = VITÓRIA PRA PEDRA  
 
 E assim vai indo
 
