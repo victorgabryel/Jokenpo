@@ -1,5 +1,5 @@
 # Jokenpô
- Um mini jogo utilizando javascript
+ Um mini jogo utilizando **javascript**
 
  (A página ainda não está bem responsiva, então pode ocorrer algum bug)
 
