@@ -1,6 +1,7 @@
 var escJog = document.getElementsByName('selec')
 
-var main = document.querySelector('.main_resultado')
+var main1 = document.querySelector('.conteudo_principal')
+var main2 = document.querySelector('.main_resultado')
 
 var jog1 = document.getElementById('jog1')
 var jog2 = document.getElementById('jog2')
@@ -15,20 +16,21 @@ var jogpont0 = 0
 var comppont0 = 0
 
 function jogar() {
-    main.style.display = 'block'
+    main1.style.display = 'none'
+    main2.style.display = 'block'
     var computador = Math.floor(Math.random() * 3)
 
     if (computador == 0) {
         if (escJog[0].checked) {
-            jog1.src = 'pedra.png'
-            jog2.src = 'pedra.png'
+            jog1.src = 'pedra1.png'
+            jog2.src = 'pedra1.png'
             res.innerHTML = 'Você escolheu <strong>PEDRA</strong> e o computador <strong>PEDRA</strong>'
             sit.innerHTML = '<strong>EMPATE</strong>'
             sit.style.color = '#B69121'
         }
         else if (escJog[1].checked) {
-            jog1.src = 'papel.png'
-            jog2.src = 'pedra.png'
+            jog1.src = 'papel1.png'
+            jog2.src = 'pedra1.png'
             res.innerHTML = 'Você escolheu <strong>PAPEL</strong> e computador <strong>PEDRA</strong>'
             sit.innerHTML = '<strong>VOCÊ VENCEU</strong>'
             sit.style.color = 'green'
@@ -36,8 +38,8 @@ function jogar() {
             jogpont.innerHTML = `${jogpont0}`
         }
         else if (escJog[2].checked) {
-            jog1.src = 'tesoura.png'
-            jog2.src = 'pedra.png'
+            jog1.src = 'tesoura1.png'
+            jog2.src = 'pedra1.png'
             res.innerHTML = 'Você escolheu <strong>TESOURA</strong> e o computador <strong>PEDRA</strong>'
             sit.innerHTML = '<strong>VOCÊ PERDEU</strong>'
             sit.style.color = 'red'
@@ -47,8 +49,8 @@ function jogar() {
     }
     else if (computador == 1) {
         if (escJog[0].checked) {
-            jog1.src = 'pedra.png'
-            jog2.src = 'papel.png'
+            jog1.src = 'pedra1.png'
+            jog2.src = 'papel1.png'
             res.innerHTML = 'Você escolheu <strong>PEDRA</strong> e o computador <strong>PAPEL</strong>'
             sit.innerHTML = '<strong>VOCÊ PERDEU</strong>'
             sit.style.color = 'red'
@@ -56,15 +58,15 @@ function jogar() {
             comppont.innerHTML = `${comppont0}`
         }
         else if (escJog[1].checked) {
-            jog1.src = 'papel.png'
-            jog2.src = 'papel.png'
+            jog1.src = 'papel1.png'
+            jog2.src = 'papel1.png'
             res.innerHTML = 'Você escolheu <strong>PAPEL</strong> e o computador <strong>PAPEL</strong>'
             sit.innerHTML = '<strong>EMPATE</strong>'
             sit.style.color = '#B69121'
         }
         else if (escJog[2].checked) {
-            jog1.src = 'tesoura.png'
-            jog2.src = 'papel.png'
+            jog1.src = 'tesoura1.png'
+            jog2.src = 'papel1.png'
             res.innerHTML = 'Você escolheu <strong>TESOURA</strong> e o computador <strong>PAPEL</strong>'
             sit.innerHTML = '<strong>VOCÊ VENCEU</strong>'
             sit.style.color = 'green'
@@ -74,8 +76,8 @@ function jogar() {
     }
     else if (computador == 2) {
         if (escJog[0].checked) {
-            jog1.src = 'pedra.png'
-            jog2.src = 'tesoura.png'
+            jog1.src = 'pedra1.png'
+            jog2.src = 'tesoura1.png'
             res.innerHTML = 'Você escolheu <strong>PEDRA</strong> e o computador <strong>TESOURA</strong>'
             sit.innerHTML = '<strong>VOCÊ VENCEU</strong>'
             sit.style.color = 'green'
@@ -83,8 +85,8 @@ function jogar() {
             jogpont.innerHTML = `${jogpont0}`
         }
         else if (escJog[1].checked) {
-            jog1.src = 'papel.png'
-            jog2.src = 'tesoura.png'
+            jog1.src = 'papel1.png'
+            jog2.src = 'tesoura1.png'
             res.innerHTML = 'Você escolheu <strong>PAPEL</strong> e o computador <strong>TESOURA</strong>'
             sit.innerHTML = '<strong>VOCÊ PERDEU</strong>'
             sit.style.color = 'red'
@@ -92,8 +94,8 @@ function jogar() {
             comppont.innerHTML = `${comppont0}`
         }
         else if (escJog[2].checked) {
-            jog1.src = 'tesoura.png'
-            jog2.src = 'tesoura.png'
+            jog1.src = 'tesoura1.png'
+            jog2.src = 'tesoura1.png'
             res.innerHTML = 'Você escolheu <strong>TESOURA</strong> e o computador <strong>TESOURA</strong>'
             sit.innerHTML = '<strong>EMPATE</strong>'
             sit.style.color = '#B69121'
@@ -102,7 +104,8 @@ function jogar() {
 }
 
 function voltar() {
-    main.style.display = 'none'
+    main1.style.display = 'block'
+    main2.style.display = 'none'
 }
 
 function resetar() {

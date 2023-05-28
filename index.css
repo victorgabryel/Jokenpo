@@ -9,6 +9,7 @@ body {
 }
 
 main {
+    display: block;
     background-color: rgb(206, 206, 206);
     width: 500px;
     height: 400px;
@@ -133,20 +134,5 @@ a:hover {
     main {
         width: 400px;
         height: 400px;
-    }
-}
-@media (max-width: 450px) {
-    main {
-        width: 300px;
-        height: 300px;
-    }
-    .res, .sit {
-        font-size: 9pt;
-    }
-    .res {
-        margin-top: 20px;
-    }
-    .sit {
-        margin-top: 0;
     }
 }
