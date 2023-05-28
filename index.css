@@ -58,12 +58,14 @@ h2 {
     border-radius: 50px;
     color: white;
     cursor: pointer;
+    transition: 0.1s;
 }
 .botao:hover {
     background-color: #686868;
 }
 .botaovolta {
     width: 150px;
+    margin-top: 30px;
 }
 
 .escolhas {
@@ -86,6 +88,28 @@ h2 {
 
 .jogadas {
     margin-top: 50px;
+}
+
+.pontos {
+    margin-top: 15px;
+}
+
+.divjog, .divcomp {
+    text-align: center;
+    color: white;
+}
+
+.pontosp {
+    display: inline;
+}
+
+.botaoreset {
+    margin-top: 15px;
+    background-color: rgb(192, 0, 0);
+    border: none;
+}
+.botaoreset:hover {
+    background-color: rgb(167, 3, 3);
 }
 
 footer {
