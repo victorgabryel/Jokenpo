@@ -15,6 +15,22 @@ var comppont = document.querySelector('.comppont')
 var jogpont0 = 0
 var comppont0 = 0
 
+function verm() {
+    document.body.style.backgroundColor = '#581818'
+}
+function verd() {
+    document.body.style.backgroundColor = '#3fb13f'
+}
+function azul() {
+    document.body.style.backgroundColor = '#419aff'
+}
+function rosa() {
+    document.body.style.backgroundColor = '#d87093'
+}
+function blac() {
+    document.body.style.backgroundColor = '#242424'
+}
+
 function jogar() {
     main1.style.display = 'none'
     main2.style.display = 'block'

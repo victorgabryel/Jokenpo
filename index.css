@@ -8,19 +8,47 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.coresselec {
+    margin: 10px;
+}
+
+.cores {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.verm {
+    background-color: #581818;
+}
+.verd {
+    background-color: #3fb13f;
+}
+.azul {
+    background-color: #419aff;
+}
+.rosa {
+    background-color: #d87093;
+}
+.blac {
+    background-color: #242424;
+}
+
 main {
     display: block;
     background-color: rgb(206, 206, 206);
     width: 500px;
     height: 400px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 35px;
 }
 .main_resultado {
     display: none;
     position: absolute;
-    top: 200px;
+    top: 238px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(206, 206, 206);
