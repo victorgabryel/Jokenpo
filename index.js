@@ -16,19 +16,19 @@ var jogpont0 = 0
 var comppont0 = 0
 
 function verm() {
-    document.body.style.backgroundColor = '#581818'
+    document.body.style.backgroundImage = "linear-gradient(to bottom, #581818, #310d0d)"
 }
 function verd() {
-    document.body.style.backgroundColor = '#3fb13f'
+    document.body.style.backgroundImage = "linear-gradient(to bottom, #3fb13f, #276b27)"
 }
 function azul() {
-    document.body.style.backgroundColor = '#419aff'
+    document.body.style.backgroundImage = "linear-gradient(to bottom, #419aff, #2b64a5)"
 }
 function rosa() {
-    document.body.style.backgroundColor = '#d87093'
+    document.body.style.backgroundImage = "linear-gradient(to bottom, #d87093, #974e67)"
 }
 function blac() {
-    document.body.style.backgroundColor = '#242424'
+    document.body.style.backgroundImage = "linear-gradient(to bottom, #242424, #000000)"
 }
 
 function jogar() {
